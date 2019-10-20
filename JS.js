@@ -77,3 +77,25 @@ function show_results(comb){
 				break
 			}
 	}
+	
+	
+	
+	
+	
+function slct(gme){
+	
+	if(gme=='ttt'){
+		console.log('ttt')
+		document.getElementById('play').style.display = 'none'
+		document.getElementById('play_rps').style.display = 'none'
+		document.getElementById('play_ttt').style.display = 'block'
+		}
+		
+	else if(gme=='rps'){
+		console.log('rps')
+		document.getElementById('play').style.display = 'none'
+		document.getElementById('play_ttt').style.display = 'none'
+		document.getElementById('play_rps').style.display = 'block'
+		}
+	
+	}
