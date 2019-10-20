@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<link href="CSS.css" rel="stylesheet">
+<link href="TTTCSS.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="msg">
+<div id="msgX">X's Tusrn</div>
+<div id="msgY">Y's Tusrn</div>
+<div id="msgXW">'X' WINS!!!!</div>
+<div id="msgYW">'Y' WINS!!!!</div>
+<div id="msgD">MATCH DRAW</div>
+</div>
+
+<div class="board">
+<div class="r0">
+<div class="box" id="11" onClick="play(0,0)"><img class="space" id="00space" src="images/space.jpg"><img class="x" id="00x" src="images/X.png"><img class="o" id="000" src="images/O.png"></div>
+<div class="box" id="12" onClick="play(0,1)"><img class="space" id="01space" src="images/space.jpg"><img class="x" id="01x" src="images/X.png"><img class="o" id="010" src="images/O.png"></div>
+<div class="box" id="13" onClick="play(0,2)"><img class="space" id="02space" src="images/space.jpg"><img class="x" id="02x" src="images/X.png"><img class="o" id="020" src="images/O.png"></div>
+</div>
+<div class="r1">
+<div class="box" id="21" onClick="play(1,0)"><img class="space" id="10space" src="images/space.jpg"><img class="x" id="10x" src="images/X.png"><img class="o" id="100" src="images/O.png"></div>
+<div class="box" id="22" onClick="play(1,1)"><img class="space" id="11space" src="images/space.jpg"><img class="x" id="11x" src="images/X.png"><img class="o" id="110" src="images/O.png"></div>
+<div class="box" id="23" onClick="play(1,2)"><img class="space" id="12space" src="images/space.jpg"><img class="x" id="12x" src="images/X.png"><img class="o" id="120" src="images/O.png"></div>
+</div>
+<div class="r2">
+<div class="box" id="31" onClick="play(2,0)"><img class="space" id="20space" src="images/space.jpg"><img class="x" id="20x" src="images/X.png"><img class="o" id="200" src="images/O.png"></div>
+<div class="box" id="32" onClick="play(2,1)"><img class="space" id="21space" src="images/space.jpg"><img class="x" id="21x" src="images/X.png"><img class="o" id="210" src="images/O.png"></div>
+<div class="box" id="33" onClick="play(2,2)"><img class="space" id="22space" src="images/space.jpg"><img class="x" id="22x" src="images/X.png"><img class="o" id="220" src="images/O.png"></div>
+</div>
+</div>
+
+<div class="rst">
+<input type="button" class="button" value="RESET" onClick="reset()">
+</body>
+
+<script src="TTTJS.js"></script>
+</html>
