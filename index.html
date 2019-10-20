@@ -1,37 +1,24 @@
 <html>
 <head>
+<title>Home</title>
 
-<title>LET'S PLAY</title>
-<link href="CSS.css" rel="stylesheet">
-
+<link href="CSS.css" rel="stylesheet" />
 </head>
 
 <body>
-<div class="scores">
-	
-	<div class="comp_score">
-    	<h3>COMP<div id="cs">0</div></h3>
-    </div>
-    
-    <div class="plyr_score">
-    	<h3>PLYR<div id="ps">0</div></h3>
-    </div>
+
+<div class="drpdown">
+<form>
+  <div class="inpt"><input type="radio" name="game" value="Tic-Tac-Toe" onClick="slct('ttt')"> Tic-Tac-Toe</div>
+  <div class="inpt"><input type="radio" name="game"  value="Rock-Paper-Scissor" onClick="slct('rps')"> Rock-Paper-Scissor</div><br />
+</form> 
 </div>
 
-<div class="msg" >	
-<h1 id="disp">SELECT YOUR CHOICE</h1>
+<div class="btns">
+<div id="play">PLAY</div>
+<a href="TTT.html"><div id="play_ttt">PLAY</div></a>
+<a href="RPS.html"><div id="play_rps">PLAY</div></a>
 </div>
-
-
-<div class="symbols">
-
-<div class="rock" onClick="user_select('r')"><img src="images/rock.png"></div>  
-<div class="paper" onClick="user_select('p')"><img src="images/paper.png"></div>  
-<div class="scissor" onClick="user_select('s')"><img src="images/scissors.png"></div>  
-
-</div>
-
 </body>
-<script src="JS.js"></script>
+<script src="JAVASCRIPT.js"></script>
 </html>
-                  
